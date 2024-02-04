@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@700&display=swap');
+body {
+    background-image: url(sinja.jpeg);
+    background-position-x: 100%;
+    background-position-y: 100%;
+    background-position: center center;
+
+
+    font-family: 'Handjet', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock {
+    font-size: 4rem;
+    text-shadow: 0.25rem o.6rem rgba(255, 255, 255, 0.1);
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+    
+    
+}
+
+#seconds {
+    min-width: 5.5rem;
+}
